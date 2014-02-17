@@ -1,0 +1,55 @@
+
+body {
+	margin: 0;
+	padding: 5;
+	background: #f0f0f0;
+	font-family: arial;
+	color: #383838;
+}
+h1{
+	color: #7DD5EF;
+	text-transform: uppercase;
+}
+.navbar-brand{
+	font-family: 'vSHexagonica-v1-0-1';
+	text-transform: uppercase;
+	border: 2px solid rgb(153,153,153);
+	margin-left: 10em;
+}
+h2{
+	color: rgb(125,218,239);
+}
+footer{
+	color: #fff;
+	padding: 5px 5px 5px;
+	margin: auto;
+	width: 500px;
+	background-color: #288DAA;
+	text-align: center;
+}
+.tex{
+	margin-top: 25px;
+}
+header{
+	background-color: #fff;
+	width: 960px;
+	margin: auto;
+}
+.logo-s{
+	width: 280px;
+}
+form{
+	width: 10%;
+}
+.cabecera{background-color: #666;}
+
+
+h1{text-align:center;}
+
+
+
+
+
+
+
+

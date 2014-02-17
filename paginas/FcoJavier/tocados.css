@@ -1,0 +1,39 @@
+.nav nav-list{
+	width: 20%;
+}
+#myCarousel{
+	margin-left: 40px;
+	width: 100%;
+}
+.logocabecera{
+	margin-left: 40px;
+	text-align: center;
+
+}
+.blog-masthead{
+	background-color: #990066;
+}
+.blog-nav{
+	margin-left: 1000px;
+	color: white;
+	
+}
+.masthead{
+	width: 90%;
+	
+}
+footer{
+	background-color: #990066;
+	margin: bottom;
+}
+.container1{
+	text-align: center;
+	margin: 50px;
+	margin-left: 50px;
+}
+p{
+
+}
+.contacta{
+	width: 40%;
+}

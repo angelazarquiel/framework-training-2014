@@ -1,0 +1,83 @@
+<html>
+
+<head>
+  <title>Tocados</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="tocados.css" rel="stylesheet">
+  
+</head>
+
+<body>
+<div class="blog-masthead">
+    <div class="container">
+      <nav class="blog-nav">
+        <a class="blog-nav-item active" href="entrar.html">Entrar</a> /
+        <a class="blog-nav-item" href="registrarse.html">Registrarse</a>
+      </nav>
+    </div>
+  </div>    
+<div class="masthead">
+    <ul class="nav nav-justified">
+     <li class="logo"><img class="logocabecera" src="logo.png"></li>  
+     <li class="active"><a href="#">INICIO</a></li>
+     <li><a href="#">EMPRESA</a></li>
+     <li><a href="#">ENVIOS</a></li> 
+     <li><a href="#">NOTICIAS</a></li>
+     <li><a href="#">CONTACTO</a></li>
+     <li><a href="#">ZONA CLIENTES</a></li>
+  </ul>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+    <ul class="nav nav-list">
+          <li class="active">TOCADOS</li>
+          <li><a href="">Tocados Classic</a></li>
+          <li><a href="">Grandes Tocados</a></li>
+          <li><a href="">Tocados Novia</a></li>
+          <li><a href="">Tocados Petit</a></li> 
+          <li class="active">SOMBREROS</li>
+          <li><a href="">Sombreros Clasicc</a></li>
+          <li class="active">COMPLEMENTOS</li>
+          <li><a href="">Collares</a></li>
+          <li><a href="">Pulseras</a></li>
+          <li><a href="">Anillos</a></li>     
+     </ul>
+  </div>
+    <div class="col-md-10">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="active item"><img  src="tocados-classic.jpg" alt="banner1" /></div>
+      <div class="item"><img  src="grandes-tocados.jpg" alt="banner2" /></div>
+      <div class="item"><img  src="tocados-novia.jpg" alt="banner3" /></div>
+      <div class="item"><img  src="tocados-petit.jpg" alt="banner4" /></div>
+      <div class="item"><img  src="collares.jpg" alt="banner5" /></div>
+      <div class="item"><img  src="pulseras.jpg" alt="banner6" /></div>
+      <div class="item"><img  src="anillos.jpg" alt="banner7" /></div>
+    </div>
+    
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $('.carousel').carousel()
+  });
+</script>
+</body>
+</html>
+
