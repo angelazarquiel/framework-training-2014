@@ -1,0 +1,84 @@
+
+header.cabecera{
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	color: red;
+	border-radius: 100px;
+	text-align: center;
+	border: 5px solid red;
+}
+.titulo{
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 40px;
+	font-weight: bold;
+}
+article.menu{
+	background-color: red;
+	margin-right: 15%;
+	margin-top: -1.25%;
+	margin-left: 15%;
+	border-radius: 100px;
+	color: white;
+}
+footer{
+	background-color: red;
+	text-align: center;
+	margin-right: 15%;
+	margin-top: 53%;
+	margin-left: 15%;
+	border-radius: 100px;
+	color: white;
+}
+.central{
+	margin-left: 18%;
+	margin-right: 18%;
+	background-color: red;
+	padding: 5%;
+	
+	border: 3px solid black;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: justify;
+}
+img{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.form{
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 50%;
+}
+fieldset{
+	border-radius: 70px;
+	border: 2.5px solid red;
+	margin-left: 13%;
+	width: 130%;
+}
+legend{
+	border-bottom: 2.5px solid red;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+	font-family: cursive;
+}
+td{
+	font-weight: bold;
+	color: red;
+}
+.btn{
+	padding: 2.3%;
+	background-color: rgba(255,0,0,0.7);
+	border-radius: 15px;
+	font-weight: bold;
+}
+.formu{
+	margin-left: 5%;
+}
+.form-control{
+	border-radius: 15px;
+	padding: 3.5px;
+}

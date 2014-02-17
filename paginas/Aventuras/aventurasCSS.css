@@ -1,0 +1,13 @@
+.footer{
+	text-align: right;
+    font-size: x-small;
+    padding-right: 20px;
+    background-color: #00ffae;
+	}
+.text-justify{
+	text-align: justify;
+}
+.cabezera{
+	text-align: center;
+	background-color: #00ffae;
+}

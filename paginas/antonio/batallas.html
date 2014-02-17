@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Batallas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- <link href="css/bootstrap-theme.css" rel="stylesheet"> -->
+    <!-- descargado de bootswatch -->
+    <link href="css/bootstrap_tema.css" rel="stylesheet">
+    <link rel="icon" href="images/logo_ventana.png">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+       <style type="text/css">
+
+    div.cabecera{
+    }
+
+    h1{
+      padding-top: 2em;
+
+    }
+      h2{
+      padding-top: 2em;
+      color:#FFFD50
+
+    }
+
+    h4{
+
+      background:  url(images/footer.gif);
+      padding: 2px;
+      margin-top: 2em;
+      padding-left: 1em;
+      color:#fff000;
+
+
+
+
+      }
+
+      h5{
+
+        color:#fff000;
+
+      }
+
+    h6{
+      text-align: center;
+    }
+
+    p{
+
+
+      color:#FFFD9A;
+      margin-bottom: 20px;
+      margin-top: 10px;
+
+    }
+
+  
+
+    .fondo{
+     }
+
+
+
+    img.logo{
+      margin-top: 4em;
+
+      
+
+      
+    }
+
+      
+   footer{
+       margin-top: 0;
+      background: url(images/footer.gif);
+      padding: 50px;
+
+    }
+
+      img.imagenhistoria{
+        margin-top: 1em;
+        border-radius: 40%;
+        border:2px solid;
+        border-color: yellow;
+        margin-left: 10px;
+        width: 220px;
+        margin-bottom: 40px;
+
+      }
+
+    img.imagenhistoria2{
+        margin-top: 1em;
+        border-radius: 40%;
+        border:2px solid;
+        border-color: yellow;
+        margin-left: 60px;
+        width: 220px;
+        margin-bottom: 40px;
+
+      }
+
+
+      img.legion{
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+
+      li{
+
+        color:#FFFD9A;
+
+      }
+
+      strong{
+        color:#FFFD50
+
+      }
+
+  
+      .fondocuerpo{
+        background: -moz-linear-gradient(top,  rgba(63,63,63,0.65) 0%, rgba(76,76,76,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(63,63,63,0.65)), color-stop(100%,rgba(76,76,76,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(63,63,63,0.65) 0%,rgba(76,76,76,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(63,63,63,0.65) 0%,rgba(76,76,76,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(63,63,63,0.65) 0%,rgba(76,76,76,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(63,63,63,0.65) 0%,rgba(76,76,76,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a63f3f3f', endColorstr='#004c4c4c',GradientType=0 ); /* IE6-9 */
+
+        border-radius: 50px 50px 0 0;
+
+        padding-bottom: 20%;
+      }
+   
+table{
+width: 100%;
+padding: 15px;
+margin:5px ;
+margin-bottom: 10px;
+
+
+background-color: rgba(150,150,255,0.2);
+border-spacing: 10px;
+
+
+
+}
+
+td{
+text-align: center;
+
+
+border:1px solid;
+
+padding: 3px;
+
+
+
+ }
+
+th{
+  text-align: center;
+  border:1px solid;
+  
+
+  padding: 2px;
+  
+ 
+}
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+   
+      
+  
+           
+
+
+    
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav" id="menu">
+
+
+
+            <li ><a href="index.html">Inicio</a></li>
+            <li ><a href="historia.html">Historia</a></li>
+             
+           
+             <li><a href="ejercito.html">Ejército</a></li>
+           
+            <li><a href="cultura.html">Cultura</a></li>
+            <li><a href="politica.html">Política</a></li>
+            <li   class="active"><a href="batallas.html">Batallas</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+          </ul>
+         </div><!--/.nav-collapse -->
+    </div>
+
+ 
+
+
+  
+
+   <div class="fondo">
+     
+  
+
+    <div class="container">
+
+        <div class="row">
+          <div class="col-md-3">
+            </div>
+
+            <div class="col-md-2">
+               
+              <img src="images/logotipo2.png" class="logo" alt="">
+
+                
+              </div>
+
+            
+
+            </div>
+
+          
+
+
+             
+          <div class="fondocuerpo">
+            
+          
+
+
+
+
+          <div class="row">
+          <div class="col-md-1">
+            </div>
+          
+            
+          <div class="col-md-10">
+           
+            <h2>Batallas</h2>
+          
+        </div>
+
+         </div>
+
+        <div class="row">
+          <div class="col-md-1">
+            </div>
+
+        <div class="col-md-10">
+          <p>En el apartado Batallas nos centraremos en las batallas más importantes en las que participó la Antigua Roma.
+</p>
+            </div>
+        </div>
+        
+
+        
+        <div class="row">
+          <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+      <h4>La batalla de Cannas</h4>
+
+<table >
+  <thead>
+    <tr>
+      <th>Fecha:</th>
+
+      <td colspan=2>2 de agosto del 216 a.C.</td>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Beligerantes:</th>
+
+      <td>República romana</td>
+
+      <td>República de Cartago</td>
+
+    </tr>
+    <tr>
+      <th>Bajas</th>
+      <td>70.000 muertos </td>
+      <td>6.000 muertos</td>
+
+
+    </tr>
+    <tr>
+      <th>Guerra:</th>
+      <td colspan=2>Segunda Guerra Púnica</td>
+
+
+    </tr>
+    <tr>  
+      <th>Victoria:</th>
+      <td colspan=2>Cartago</td>
+
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+<p>Cannas: En el año 216 AC, las poderosas legiones romanas se enfrentaron, en la localidad italiana de Cannas, al ejército cartaginés de Aníbal. Los 70.000 romanos doblaban en número a los soldados de Cartago, pero el líder cartaginés ideó una estrategia que le dio finalmente la victoria, resultando el ejército romano totalmente destrozado. Todos pensaban entonces que Aníbal atacaría Roma, pero finalmente no lo hizo. Roma se repuso por completo, y no sólo persiguió a Aníbal hasta su muerte, sino que arrasó la ciudad de Cartago hasta sus cimientos. </p>
+
+
+</div>
+
+  <div class="col-md-1">
+            </div>
+
+     
+        </div>
+
+     
+
+
+
+             <div class="row">
+          <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+       
+
+        <h4>La batalla de Zama</h4>
+
+<table >
+  <thead>
+    <tr>
+      <th>Fecha:</th>
+
+      <td colspan=2>19 de Octubre de 202 a.C.</td>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Beligerantes:</th>
+
+      <td>República romana</td>
+
+      <td>República de Cartago</td>
+
+    </tr>
+    <tr>
+      <th>Bajas</th>
+      <td>1.500 - 2.500 muertos</td>
+      <td>20.000 - 25.000 muertos</td>
+
+
+    </tr>
+    <tr>
+      <th>Guerra:</th>
+      <td colspan=2>Segunda Guerra Púnica</td>
+
+
+    </tr>
+    <tr>  
+      <th>Victoria:</th>
+      <td colspan=2>República romana</td>
+
+    </tr>
+  </tbody>
+</table>
+
+<p>
+
+La Batalla de Zama, 19 de octubre de 202 a. C., representó el desenlace de la Segunda Guerra Púnica. En ella se enfrentaron el general cartaginés Aníbal Barca y el joven Publio Cornelio Escipión, "el Africano Mayor", en las llanuras de Zama. </p>
+</div>
+
+              <div class="col-md-1">
+            </div>
+
+     
+        </div>
+
+
+
+
+        <div class="row">
+          <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+       
+
+        <h4>La batalla de Carras</h4>
+
+<table >
+  <thead>
+    <tr>
+      <th>Fecha:</th>
+
+      <td colspan=2>9 de junio de 53 a.C.</td>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Beligerantes:</th>
+
+      <td>República romana</td>
+
+      <td>Imperio Parto</td>
+
+    </tr>
+    <tr>
+      <th>Bajas</th>
+      <td>20.000 muertos</td>
+      <td>Desconocidas (mínimas)</td>
+
+
+    </tr>
+  
+    <tr>  
+      <th>Victoria:</th>
+      <td colspan=2>Imperio Parto</td>
+
+    </tr>
+  </tbody>
+</table>
+
+<p>Fue una importante batalla que tuvo lugar en el año 53 a. C. en la ciudad de Carras (actualmente Harrán, Turquía) entre el ejército romano al mando del general Marco Licinio Craso, gobernador de Siria por aquel entonces, y el ejército parto al mando del general Surena. Fue una de las derrotas más severas que sufrió la República romana. Para Roma la principal consecuencia de esta batalla fue la muerte de Craso, y en consecuencia la desaparición del primer triunvirato, pasando de una regla de tres a otra de dos. Pero aún así dos era multitud para el gobierno de la República y el camino estaba despejado para el inicio de la guerra civil entre Julio César y Pompeyo.</p>
+
+<p>Otra de las implicaciones de esta batalla fue el hecho de que el continente europeo se abriera a un nuevo y preciado material: la seda. Los romanos que lograron sobrevivir a la batalla describieron haber visto unas banderas brillantes, hechas al parecer con seda, usadas por los partos mientras les perseguían. Así, al mismo tiempo que el interés en Europa por este tejido crecía, se extendía la ruta de la seda entre este continente y China, dando comienzo a una de las rutas comerciales más grandes y prósperas de la historia.</p>
+</div>
+
+              <div class="col-md-1">
+            </div>
+
+     
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+       
+
+        <h4>La batalla de Alesia</h4>
+
+<table >
+  <thead>
+    <tr>
+      <th>Fecha:</th>
+
+      <td colspan=2>Septiembre y Octubre de 52 a.C.</td>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Beligerantes:</th>
+
+      <td>República romana</td>
+
+      <td>Trbus de Galia</td>
+
+    </tr>
+    <tr>
+      <th>Bajas</th>
+      <td>Desconocidas</td>
+      <td>100.000 muertos</td>
+
+
+    </tr>
+    <tr>
+      <th>Guerra:</th>
+      <td colspan=2>Guerra de las Galias</td>
+
+
+    </tr>
+    <tr>  
+      <th>Victoria:</th>
+      <td colspan=2>República romana</td>
+
+    </tr>
+  </tbody>
+</table>
+
+<p>
+El general romano Julio César emprendió la conquista de la Galia en el año 58 antes de Cristo. Al principio todo estuvo a su favor, hasta que un líder galo, Vercingétorix, se puso al mando de las tribus galas, enfrentándose a las legiones romanas. La batalla decisiva tuvo lugar, el año 52 antes de Cristo, en Alesia, fortaleza gala situada en lo alto de una colina, a la que las tropas romanas pusieron cerco. Las acertadas decisiones y la magnífica estrategia de Julio César le condujeron a la victoria. Vercengétorix fue hecho prisionero y llevado hasta Roma como trofeo, lo que motivó el imparable ascenso político de Julio César.</p> 
+</div>
+
+              <div class="col-md-1">
+            </div>
+
+     
+        </div>
+
+
+<div class="row">
+          <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+       
+
+       <h4>La batalla de Farsalia</h4>
+
+<table >
+  <thead>
+    <tr>
+      <th>Fecha:</th>
+
+      <td colspan=2>9 de agosto del 48 a. C.</td>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Beligerantes:</th>
+
+      <td>Cesarianos</td>
+
+      <td>Pompeyanos</td>
+
+    </tr>
+    <tr>
+      <th>Bajas</th>
+      <td>1.200 muertos</td>
+      <td>15.000 muertos</td>
+
+
+    </tr>
+    <tr>
+      <th>Guerra:</th>
+      <td colspan=2>Segunda Guerra Civil de la República de Roma</td>
+
+
+    </tr>
+    <tr>  
+      <th>Victoria:</th>
+      <td colspan=2>Julio César</td>
+
+    </tr>
+  </tbody>
+</table>
+
+<p>Enfrentó a los ejércitos romanos de Julio César, quién se declaró vencedor, y Cneo Pompeyo Magno, en el contexto de la guerra civil entre populares y optimates. Con el triunfo de César en esta batalla se dejarían listos los cimientos para edificar lo que sería el grandioso Imperio Romano, mostrando además gran superioridad contra su oponente, Pompeyo, quién huyó a Egipto, donde fue asesinado.</p>
+</div>
+
+              <div class="col-md-1">
+            </div>
+
+     
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+       
+
+      <h4>La batalla de Actium</h4>
+
+<table >
+  <thead>
+    <tr>
+      <th>Fecha:</th>
+
+      <td colspan=2>2 de Septiembre de 31 a.C.</td>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Beligerantes:</th>
+
+      <td>República romana (Cayo julio César Octaviano)</td>
+
+      <td>República romana (Marco Antonio) y Egipto ptolemaico (Cleopatra)</td>
+
+    </tr>
+    <tr>
+      <th>Bajas</th>
+      <td>2.500 muertos</td>
+      <td>5.000 muertos</td>
+
+
+    </tr>
+    <tr>
+      <th>Guerra:</th>
+      <td colspan=2>Cuarta Guerra Civil de la República de Roma</td>
+
+
+    </tr>
+    <tr>  
+      <th>Victoria:</th>
+      <td colspan=2>Cayo Julio César Octaviano (Augusto César)</td>
+
+    </tr>
+  </tbody>
+</table>
+
+<p>La Batalla Naval de Actium se produjo el 2 de septiembre del año 31 a. C., entre las flotas de Cayo Julio César Octaviano, dirigida por Agripa, y la de Marco Antonio y su aliada Cleopatra, frente al golfo de Ambracia y el promontorio de Actium (Accio). La batalla se saldó con la victoria absoluta de Augusto con 2.500 bajas y la huida de Antonio y Cleopatra, dejando mas de 5.000 muertos. </p>
+</div>
+
+              <div class="col-md-1">
+            </div>
+
+     
+        </div>
+
+
+           <div class="row">
+          <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+       
+
+     <h4>Batalla del bosque de Teutoburgo</h4>
+
+<table >
+  <thead>
+    <tr>
+      <th>Fecha:</th>
+
+      <td colspan=2>Septiembre del año 9 d. C.</td>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Beligerantes:</th>
+
+      <td>Imperio romano</td>
+
+      <td>Tribus germanas</td>
+
+    </tr>
+    <tr>
+      <th>Bajas</th>
+      <td>15.000 muertos</td>
+      <td>Desconocidas (Muy inferiores a las romanas)</td>
+
+
+    </tr>
+    <tr>
+      <th>Guerra:</th>
+      <td colspan=2>Conquista romana de Germania</td>
+
+
+    </tr>
+    <tr>  
+      <th>Victoria:</th>
+      <td colspan=2>Tribus germanas</td>
+
+    </tr>
+  </tbody>
+</table>
+ <p>Conocida como la Batalla del bosque de Teutoburgo, la Batalla de la selva de Teutoburgo o Desastre de Varo ( Varusschlacht ), fue un enfrentamiento que tuvo lugar en la Baja Sajonia, Alemania , en el año 9 d.C entre una alianza de pueblos germanos y el ejercito romano . Aunque esta batalla ha pasado bastante desapercibida por la historia , la severa derrota para el Imperio romano hizo que tuviese que olvidar sus pretensiones de conquistar las tierras más allá del Rin ( Rhin ) , fijando así las fronteras del Imperio en este rio , lo que impidió la latinización de Germania y de los pueblos del norte , que mantuvieron su cultura e idiomas . </p>
+</div>
+
+              <div class="col-md-1">
+            </div>
+
+     
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+     
+        </div>
+
+
+
+
+
+            
+
+
+            
+          </div>
+
+  </div>
+
+  </div>
+  <footer >
+    
+        
+
+         <div class="row">
+      <div class="col-md-2">
+        
+      </div>
+
+
+ 
+
+      <div class="col-md-8">
+        <h6>© Realizado por: Antonio Cañete Úbeda 1º Desarrollo de aplicaciones web.</h6>
+        
+      </div>
+     <div class="col-md-2">
+
+
+
+        <a href="https://twitter.com/share" target="blank"><img alt="Twitter"
+
+src="http://i1185.photobucket.com/albums/z349/5thconbleecker/
+
+ocean_twitter_zpsbaf99dee.png"  title="Twitter" /></a>
+
+
+<a href="http://www.facebook.com" class="facebook" title="Síguenos en Facebook">
+
+<img alt=”Facebook” src='http://
+
+i1185.photobucket.com/albums/z349/5thconbleecker/ocean_facebook_zps04c13233.png' 
+
+title='Facebook' /></a>
+
+
+<a href="mailto:antoniocaniete@gmail.com"><img alt="Email"
+
+src='http://i1185.photobucket.com/albums/z349/5thconbleecker/
+
+ocean_email_zpsd0c87d7f.png'  title='Mail' /></a>
+
+
+
+
+
+
+
+        
+      </div>
+
+      
+
+    
+
+
+      
+    </div>
+    </footer>
+
+     </div>
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
