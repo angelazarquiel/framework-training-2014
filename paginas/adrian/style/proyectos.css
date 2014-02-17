@@ -1,0 +1,85 @@
+@font-face {
+	font-family:MonospaceTypewriter;
+	src: url('../tt/MonospaceTypewriter.ttf');
+}
+
+article p{
+	padding:0px 10px 0px 10px;
+	font-family:MonospaceTypewriter;
+	color:#ffffff;
+	font-size:24px;
+}
+
+#cabe1{
+	width:100%;
+	height:50px;
+	background-image:url('../images/titles/proycurtit.png');
+	background-repeat:no-repeat;
+	background-color:#bc0d0d; 
+	margin-bottom:25px;
+}
+
+#cabe2{
+	width:100%;
+	height:50px;
+	background-image:url('../images/titles/proyfintit.png');
+	background-repeat:no-repeat;
+	background-color:#bc0d0d; 
+	margin-bottom:25px;
+}
+
+div.proy{
+	width:100%;
+	height:200px;
+	background-color:#272727;
+	margin-bottom:15px;
+}
+
+div.proy a{
+	width:100%;
+	height:100%;
+}
+
+#proy1{
+	background-image:url('../images/titles/2prproy.png');
+	background-repeat:no-repeat;
+}
+
+#proy2{
+	background-image:url('../images/titles/koeproy.png');
+	background-repeat:no-repeat;
+}
+
+#proy3{
+	background-image:url('../images/titles/thegarashproy.png');
+	background-repeat:no-repeat;
+}
+
+#proy4{
+	background-image:url('../images/titles/tiempoproy.png');
+	background-repeat:no-repeat;
+}
+
+#proy5{
+	background-image:url('../images/titles/vanpproy.png');
+	background-repeat:no-repeat;
+}
+
+/*proyecto1*/
+
+#proyecto1cont{
+	padding-top:10px; 
+	width:100%;
+	height:700px;
+	background-color:#272727;
+}
+
+#cabecera1{
+	width:100%;
+	height:50px;
+	background-image:url('../images/titles/dospintasproycabecera.png');
+	background-repeat:no-repeat;
+	background-color:#bc0d0d; 
+	margin-bottom:25px;
+}
+

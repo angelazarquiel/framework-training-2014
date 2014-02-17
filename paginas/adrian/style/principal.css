@@ -1,0 +1,39 @@
+
+div.header{
+	height:105px;
+	margin-bottom:20px;
+}
+
+#titulo{
+	float:left;
+	height:100px;
+	background-image:url('../images/titles/garashtitle.png');
+	background-repeat:no-repeat; 
+}
+
+#menucont {
+	float: left;
+	text-align: center;
+}
+
+#menucont ul {
+	margin: 40px 0 0 20px;
+	padding: 0;
+}
+
+#menucont ul li {
+	list-style-type: none;
+	float: left;
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+
+#menucont ul li a {
+	color:#3d3d3d;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+#menucont ul li a:hover {
+	color: #bfbfbf;
+

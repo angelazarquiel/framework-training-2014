@@ -1,0 +1,95 @@
+.foto {				
+
+	width: 100%;
+}
+			
+.enlaces img {
+
+	width: 20%;						
+}
+
+.enlaces .saturno {
+
+	width: 55%;	
+}
+
+.fotografias img {
+
+	width: 49%;
+}
+			
+.foto2 {
+				
+	width: 49%;
+}
+
+iframe {
+				
+	width: 49%;
+	min-height: 315px;
+}
+
+.iframe2 {
+				
+	width: 100%;
+	/*min-height: 315px;*/
+}
+			
+p {
+				
+	text-align: justify;
+}
+			
+table img {
+				
+	width: 3em;	
+}
+			
+#pie_pagina p {
+				
+	text-align: center;
+}
+
+li {
+		
+	text-align: center;
+}			
+
+
+h1 {
+
+	font-size: 2em;
+	
+}
+
+h2 {
+
+	font-size: 1.5em;
+	
+}
+
+h3 {
+
+	font-size: 1.2em;
+}
+
+legend {
+
+	font-size: 1.2em;
+}
+
+cite {
+
+	font-style: italic;
+}
+
+.texto {
+
+	background-color: #C7C7C7;
+}
+
+#pie_pagina {
+
+	background-color: rgba(37,55,82,0.3);
+}
+

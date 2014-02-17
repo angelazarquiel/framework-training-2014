@@ -1,0 +1,174 @@
+.foto{
+  margin-top: 30px;
+}
+.img-responsive{
+  max-width: 200px;
+}
+.cabecera{
+  height: 30px;
+  margin-top: -10px;
+  padding-left: 30px;
+}
+div.btn-group{
+  margin:10px auto;
+}
+div.container{
+  margin-top:55px;
+}
+input.file{
+  margin-top: 5px;
+}
+footer{
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(44,62,80);
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: rgb(141,179,226);
+}
+a{
+color: rgb(141,179,226);
+text-decoration: none;
+}
+a:hover{
+  color:rgb(141,179,226);
+}
+table{
+  min-width: 100%;
+}
+img{
+  min-width: 100%;
+}
+table.grupo{
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  background-color: rgb(141,179,226);
+  border-radius: 20px;
+  border: none;
+  color:rgb(44,62,80);
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+th.grupo{
+  text-align: center;
+}
+th.grupo a{
+  color:#2C3E50;
+}
+td.grupo{
+  width: 170px;
+}
+img.banderas{
+  padding-top: 0px;
+  height: 15px;
+  width: 28px;
+  display:inline-block;
+  vertical-align: text-top;
+  border: solid 0.3px;
+  min-width: 28px;
+}
+table.calendario{
+  width: 100%;
+  text-align: center; 
+  background-color: rgb(141,179,226);
+  border-radius: 20px;
+  color: rgb(44,62,80);
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+table.calendario td{
+  border: none;
+}
+.calendario th{
+  text-align: center;
+}
+td.eqlocal{
+  text-align: left;
+  width: 180px;
+}
+td.eqvisit{
+  text-align: right;
+  width: 180px;
+}
+td.fecha{
+  text-align: right;
+}
+td.sede{
+  width: 150px;
+}
+th.fecha{
+  text-align: right;
+}
+td.kostage{
+  text-align: center;
+}
+img.ko{
+  width: 100%;
+  border-radius: 20px;
+}
+img.sede{
+  width: 100%;
+  border-radius: 20px;
+}
+textarea{
+  width: 100%;
+}
+table.clasificacion{
+  width: 100%;
+  border: none;
+  text-align: center;
+  border-collapse: separate;
+  padding: 10px;
+  background-color: rgb(141,179,226);
+  color: rgb(44,62,80);
+  border-radius: 20px;
+
+}
+table.clasificacion th{
+  text-align: center;
+}
+table.clasificacion td{
+  border: none;
+}
+tr.clasificacion:hover{
+  background-color: white;
+  border: none;
+}
+h2{
+ font-weight: bold;
+}
+h3{
+  font-weight: bold;
+  text-align: center;
+}
+li.apuesta h3{
+  font-weight: normal;
+  text-align: left;
+}
+li.ronda{
+  list-style: none;
+}
+li.apuesta{
+  list-style: none;
+}
+div.alert-warning{
+  background-color: rgb(141,179,226);
+  border: none;
+  color:rgbrgb(44,62,80);
+}
+iframe.grande{
+  width: 100%;
+}
+.btn-success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(141,179,226);
+    border-color: rgb(141,179,226);
+}
+.btn-success:hover{
+  background-color:rgb(44,62,80);
+  border-color:rgb(44,62,80);
+}
+a.terminos{
+  color: rgb(44,62,80);
+}

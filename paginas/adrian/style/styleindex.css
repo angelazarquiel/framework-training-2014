@@ -1,0 +1,58 @@
+@font-face {
+font-family:kenyancoffeerg;
+src: url('../tt/kenyancoffeerg.ttf');
+}
+
+#titulodestacados{
+	width:100%;
+	height:50px;
+	background-image:url('../images/titles/desttactitulo.png');
+	background-repeat:no-repeat;
+	background-color:#bc0d0d; 
+	margin-bottom:25px;
+}
+
+article.destacado{
+	width:100%;
+	margin-bottom:25px;
+}
+
+
+div.titulodestacado{
+	width:100%;
+	height:50px;
+	background-color:#bc0d0d;
+}
+
+#destit1{
+	background-image:url('../images/titles/title1.png');
+	background-repeat:no-repeat;
+}
+
+#destit2{
+	background-image:url('../images/titles/title2.png');
+	background-repeat:no-repeat;
+}
+
+div.sinopsis{
+	position:relative;
+	top:0px;
+	height:400px;
+	background-color:#272727;
+	float:right;
+}
+
+div.sinopsis p{
+	padding:0px 10px 0px 10px;
+	font-family:kenyancoffeerg;
+	color:#ffffff;
+	font-size:24px;
+}
+div.sinopsistitulo{
+	width:100%;
+	height:50px;
+	background-image:url('../images/titles/sinopsis.png');
+	background-color:#3a3a3a;
+	float:right;
+}
+
