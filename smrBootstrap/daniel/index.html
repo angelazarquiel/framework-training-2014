@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+    .center {
+      text-align: center;
+    }
+
+    .back {
+      position:absolute;
+      width:100%;
+      z-index: -1;
+    
+    }
+
+    .texto {
+      background-color: rgba(0,0,128,0.3); 
+      padding:2em;
+    }
+
+    </style>
+    <title>League Of Legend</title>
+ 
+    <!-- CSS de Bootstrap -->
+    <link href="css/bootstraptheme.css" rel="stylesheet" media="screen">
+    <link href="css/seguridad.css">
+ 
+    <!-- librerías opcionales que activan el soporte de HTML5 para IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  	<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-tower"></span> LoL</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-book"></span>  Historia Del LoL</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-lock"></span> Creador y Info</a></li>
+        
+         
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Usuario...">
+           <input type="password" class="form-control" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-user"></span>Entrar</button>
+      </form>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 hidden-xs" id="titulo">
+    <h1 class="center">League Of Legend</h1>
+    <h2 class="center">LCS</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-5 col-sm-3"><li><a href="http://euw.lolesports.com/eu-lcs/2014/split1/teams">Equipos Participantes</a></li>
+    <li><a href="http://euw.lolesports.com/eu-lcs/2014/split1/standings">CLasificaciones</a></li>
+    <li><a href="http://euw.lolesports.com/eu-lcs/2014/split1/schedule/9">Horarios<a/></li>
+    <li><a href="http://euw.lolesports.com/eu-lcs/2014/split1/stats">Top Team y Teams </a></li>
+  </div>
+
+ 
+  <!-- La clase 'clearfix' sólo se aplica cuando el dispositivo sea
+       muy pequeño, tal y como indica la clase 'visible-xs' -->
+  <div class="clearfix visible-xs"></div>
+ <div class="col-md-6">
+  <img src="imagenes/Lcs.jpg" alt="Lcs" class="back">
+  <div class="texto">
+  El LCS es una liga de 8 equipos, donde los equipos jugarán 28 partidos - cuatro de un solo juego de los partidos contra cada uno de los otros siete equipos de la liga. Al final de la división de la temporada regular, los dos mejores equipos ganan un pase directo a los playoffs. El tercero a través de cabezas de serie sexta jugar en la ronda de comodines. Los ganadores pasan a jugar las dos cabezas de serie, mientras que los perdedores juegan en un quinto lugar de encuentro. El perdedor de la quinta-partido por el descenso se reduce a partidos junto con los dos equipos que no lograron llegar a los playoffs, donde tres equipos challenger tratan de eliminarlos de la ECV en el Torneo de Promoción.
+
+Después de la primera división de la temporada, la siguiente división seguirá las mismas líneas generales, con la excepción del formato de playoffs. Basándose en los resultados de playoffs, los mejores equipos ganarán un viaje a los Campeonatos del Mundo de 2014 en Corea del Sur.</div>
+  </div>
+</div>
+<div class="row">
+  <div class="center">
+
+  </div>
+
+ 
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+ 
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+         incluir archivos JavaScript individuales de los únicos
+         plugins que utilices) -->
+    <script src="js/bootstrap.js"></script>
+
+
+  </body>
+</html>
