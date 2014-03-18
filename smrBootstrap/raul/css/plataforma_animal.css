@@ -1,0 +1,17 @@
+body {
+	background-color: orange; 
+}
+
+#titulo {
+	text-align: center;
+}
+
+.justificado {
+	text-align: justify;
+}
+
+.pie {
+	background-color: green;
+	color: #ffffff;
+	text-align: center;
+}
